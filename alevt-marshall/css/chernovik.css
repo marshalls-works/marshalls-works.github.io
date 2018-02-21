@@ -1,0 +1,34 @@
+/*.offer__cta {
+	border: 2px solid #AEA8D3;
+	box-shadow: inset 0px -2.5px 0px 0px rgba(141, 158, 150, 0.6);
+	border: none;
+	background: #2df092;
+	color: #fff;
+	font-weight: 400;
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	padding: 12px 0;
+	width: 201px;
+	height: 46px;
+	margin: 0;
+	margin-top: 70px;
+	-moz-box-shadow: inset 0px -2.5px 0px 0px rgba(141, 158, 150, 0.6);
+ -webkit-box-shadow: inset 0px -2.5px 0px 0px rgba(141, 158, 150, 0.6);
+	-moz-border-radius: 90px; /* закругление для старых Mozilla Firefox */
+ -webkit-border-radius: 90px; /* закругление для старых Chrome и Safari */
+ -khtml-border-radius: 90px; /* закругл. для браузера Konquerer системы Linux */
+ border-radius: 90px; /* закругление углов для всех, кто понимает */
+} */
+
+
+
+/*.offer__cta:hover, .offer__cta:active{
+ border: none;
+ color: #6680B4;
+ background-color: #FFFFFF;
+  transition: all .9s;
+}
+.offer__cta:active{ box-shadow: none;
+ transition: none;
+ margin-top: 71px;}*/
