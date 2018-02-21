@@ -1,0 +1,123 @@
+ @font-face {
+    font-family: 'MuseoSansCyrl'; /* Гарнитура шрифта */
+    src: url(../fonts/MuseoSansCyrl100Italic.otf); /* Путь к файлу со шрифтом */
+    font-weight: 100;
+    font-style: italic;
+   }
+
+    @font-face {
+    font-family: 'MuseoSansCyrl'; /* Гарнитура шрифта */
+    src: url(../fonts/MuseoSansCyrl100.otf); /* Путь к файлу со шрифтом */
+    font-weight: 100;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: 'MuseoSansCyrl'; /* Гарнитура шрифта */
+    src: url(../fonts/MuseoSansCyrl100.otf); /* Путь к файлу со шрифтом */
+    font-weight: 100;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: 'MuseoSansCyrl'; /* Гарнитура шрифта */
+    src: url(../fonts/MuseoSansCyrl300.otf); /* Путь к файлу со шрифтом */
+    font-weight: 300;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: 'MuseoSansCyrl'; /* Гарнитура шрифта */
+    src: url(../fonts/MuseoSansCyrl300Italic.otf); /* Путь к файлу со шрифтом */
+    font-weight: 300;
+    font-style: italic;
+   }
+
+   @font-face {
+    font-family: 'MuseoSansCyrl'; /* Гарнитура шрифта */
+    src: url(../fonts/MuseoSansCyrl900.otf); /* Путь к файлу со шрифтом */
+    font-weight: 900;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: 'MuseoSansCyrl'; /* Гарнитура шрифта */
+    src: url(../fonts/MuseoSansCyrl900Italic.otf); /* Путь к файлу со шрифтом */
+    font-weight: 900;
+    font-style: italic;
+   }
+
+
+   @font-face {
+   	font-family: 'Stroke-Gap-Icons.ttf';
+   	src: url(../fonts/Stroke-Gap-Icons.ttf);
+   	font-style: normal;
+   }
+
+   @font-face {
+    font-family: 'MuseoSansCyrl'; /* Гарнитура шрифта */
+    src: url(../fonts/MuseoSansCyrl700.otf); /* Путь к файлу со шрифтом */
+    font-weight: 700;
+    font-style: normal;
+   }
+
+
+ body {
+ 	font-family: 'MuseoSansCyrl';
+ 	font-weight: 300;
+ 	margin: 0;
+	padding: 0;
+ }
+
+	div, form, input, p, button, a, span {
+	box-sizing: border-box;
+}
+
+
+ a {
+ 	text-decoration: none;
+ 	color: #fff;
+ }
+
+
+i {
+font-family: 'fontawesome' !important;
+font-style: normal;
+}
+
+
+/*---------------Header---------------*/
+
+.header {
+    height: 100vh;
+    background: url('../img/ssha-chikago-megapolis.png') no-repeat center top / cover;
+}
+
+.header .container-fluid {
+    height: 100vh;
+    padding: 0;
+}
+
+
+.top-line {
+	background: #58647a;
+	padding-top: 7px;
+	width: 100%;
+
+}
+
+.menu__list {
+	width: 533px;
+}
+
+.menu__item {
+	margin-left: 20px;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+ 
+
+ 
