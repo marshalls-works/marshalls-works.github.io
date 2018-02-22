@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'MuseoSansCyrl'; /* Гарнитура шрифта */
+    src: url(../fonts/AdelleCyrillicLight_1.ttf); /* Путь к файлу со шрифтом */
+    font-weight: 100;
+    font-style: normal;
+   }
+
+
 body {
 	font-family: 'Adelle Cyrillic';
 	font-weight: 400;
@@ -14,14 +22,16 @@ div, form, input, p, button, a, span {
 	box-sizing: border-box;
 }
 
-a:link, a:hover {
+a:link, a:hover, a:visited {
 	text-decoration: none;
+	outline: none;
+	color: #fff;
 }
 
 #header {
 	background: #44352b url(../img/workspace-2167299_1920.png) no-repeat center top/cover;
 	position: relative;
-	padding-bottom: 150px;
+	padding-bottom: 105px;
 	
 }
 .overlay1 {
@@ -67,34 +77,30 @@ a:link, a:hover {
 .offer {
 	text-align: center;
 	color: #fff;
-	margin-top: 98px;
+	margin-top: 144px;
 }
 
 .offer__h1 {
-	font-weight: 200;
-	text-transform: uppercase;
-	font-size: 122px;
+	font-size: 71px;
 	margin-top: 0;
 	position: relative;
+	font-weight: 200;
 }
 
-.offer__h1 span:last-child {
-	font-weight: 200;
-	text-transform: uppercase;
-	font-size: 122px;
-	color: #6680b4;
-	position: absolute;
-	left: 49%;
-	top: 0;
-	transform: translate(-49%, 0);
-} 
+.offer__h1: p {
+	margin-top: 13%;
+}
 
 
+.fo-size_skills_ru {
+	font-size: 13px;
+}
 
 .success {
 	font-size: 38px;
-	margin-top: 11px;
+	margin-top: 19px;
 	position: relative;
+	font-weight: 100;
 }
 
 .line {
@@ -107,7 +113,7 @@ a:link, a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 .offer__cta {
@@ -578,13 +584,12 @@ align-items: center;
 	color: #416eed;
 	padding-bottom: 2px;
 }
-.skills__name1 {
-	padding-right: 97px;
-	}
 
 .skills__name2 {
-	padding-left: 35px;
-	}
+    padding-left: 26px;
+}
+
+
 .black {
 	color: #000;
 }
@@ -598,7 +603,7 @@ align-items: center;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 22px;
+	margin-top: 20px;
 	letter-spacing: 1pt;
 }
 
@@ -971,19 +976,19 @@ textarea {
 
 .facebook {
 	font-size: 45px;
-	color: #1c3e77;
+	color: #1c3e77!important;
 	margin-right: 30px;
 }
 
 .vk {
 	font-size: 45px;
-	color: #1c3e77;
+	color: #1c3e77!important;
 	margin-right: 30px;
 }
 
 .telegram {
 	font-size: 43px;
-	color: #1c3e77;
+	color: #1c3e77!important;
 	margin-right: 30px;
 }
 
