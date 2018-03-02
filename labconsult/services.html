@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" href="css/slick.css">
 </head>
 <body>
 	<header class="header__serv" id="header">
@@ -22,7 +24,7 @@
                         <div class="head d-flex">
                         <div class="media_wrap">
                             <div class="col-md-12 col-lg-3">
-                               <img src="img/logo.png" class="logo" alt="LAB Consulting">
+                               <a href="index.html"><img src="img/logo.png" class="logo" alt="LAB Consulting"></a>
                             </div>
                             <div class="media__menu">
                                 <nav class="navbar navbar-dark">
@@ -51,7 +53,7 @@
                                 </ul>
                             </nav>
                                 <div class="col-md-12 col-lg-2">
-                                    <a class="button head__button block" href="#"><i class="fa-phone"></i>Заказать звонок</a>
+                                    <a class="button button__js head__button block" href="#"><i class="fa-phone"></i>Заказать звонок</a>
                                 </div>
                             </div>
                         </div>
@@ -90,9 +92,9 @@
             			<div class="service__header col-sm-12 col-md-3 col-lg-5">
             				<h1>Услуги</h1>
             				<div class="service__links">
-            					<a href="index2.html" class="back__link">Главная</a> → 
-            					<a href="index2.html" class="back__link">Услуги</a>
-            					<a href="index2.html" class="true__link"> → Legal</a>
+            					<a href="index.html" class="back__link">Главная</a> → 
+            					<a href="services.html" class="back__link">Услуги</a>
+            					<a href="index.html" class="true__link"> → Legal</a>
             				</div>
             			</div>
             			<div class="legal__go col-sm-12 col-md-3 col-lg-3">
@@ -198,7 +200,7 @@
 							<div class="free-cons__info">
 							<h6 class="free-cons__title">Нужна бесплатная консультация?</h6>
 							<div class="d-flex">
-								<a href="#" class="apply block">Оставить заявку</a>
+								<a href="#" class="apply button__js block">Оставить заявку</a>
 								<div class="number">+38 (048) 754-23-56</div>
 							</div>
 							<div class="object d-flex justify-content-between">
@@ -238,13 +240,9 @@
 					</div>
 					<div class="testimonials">
 						<h5 class="testimonials__title">Отзывы</h5>
-						<div class="slider">
-							<div class="slider__body">
-								<div class="d-flex">
-								<p class="arrow__left block"><i class="fal fa-angle-left"></i></p>
+						<div class="slider big-slider">
+							<div class="slider__body big-slider__item">
 								<img src="img/valera.png" class="slider__pict" alt="Tsukerberg">
-								<p class="arrow__right block"><i class="fal fa-angle-right"></i></p>
-								</div>
 								<div class="slider__lowbody">
 									<div class="testim__name">
 									Валерий Цукерберг
@@ -255,13 +253,41 @@
 								<div class="testim__link">
 									<i class="far fa-facebook"></i>
 								</div>
-								<div class="testim__radiobtn d-flex justify-content-between">
-									<div class="radio__btn"></div>
-									<div class="radio__btn"></div>
-									<div class="radio__btn"></div>
-								</div>
+								<!-- <div class="testim__radiobtn d-flex justify-content-between">
+                                    <div class="radio__btn"></div>
+                                    <div class="radio__btn"></div>
+                                    <div class="radio__btn"></div>
+                                </div> -->
 								</div>
 							</div>
+                            <div class="slider__body big-slider__item">
+                                <img src="img/valera.png" class="slider__pict" alt="Tsukerberg">
+                                <div class="slider__lowbody">
+                                    <div class="testim__name">
+                                    Викентий Цукерберг
+                                </div>
+                                <div class="testim__info">
+                                    al exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy
+                                </div>
+                                <div class="testim__link">
+                                    <i class="far fa-facebook"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="slider__body big-slider__item">
+                                <img src="img/valera.png" class="slider__pict" alt="Tsukerberg">
+                                <div class="slider__lowbody">
+                                    <div class="testim__name">
+                                    Вениамин Цукерберг
+                                </div>
+                                <div class="testim__info">
+                                    al exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy
+                                </div>
+                                <div class="testim__link">
+                                    <i class="far fa-facebook"></i>
+                                </div>
+                                </div>
+                            </div>
 						</div>
 					</div>
 				</aside>
@@ -421,12 +447,40 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-2">
-                    <a class="button footer__button" href="#"><i class="fa-phone"></i>Заказать звонок</a>
+                    <a class="button button__js footer__button" href="#"><i class="fa-phone"></i>Заказать звонок</a>
                 </div>
                 
             </div>
         </div>
     </footer>
     <div class="footer__line"></div>
+                            <!-- Модальное окно -->
+<div style="display: none;">
+    <div class="box-modal" id="exampleModal">
+        <div class="box-modal_close arcticmodal-close"><i class="fa fa-close"></i></div>
+        <form class="form js-form" id="popupResult" action="success.php" method="POST">
+            <h4 class="form__title">
+                Заполните данные ниже и мы перезвоним вам в течении 15 минут!
+            </h4>
+            <input class="form__input form-control form__field" type="text" name="name" placeholder="Имя" required>
+            <input class="form__input form-control form__field" type="email" name="email" placeholder="E-mail" required>
+            <input class="form__input form-control form__field" type="tel" name="tel" placeholder="Телефон" required>
+            <button class="button block form__button" data-submit>Заказать звонок</button>
+        </form>
+    </div>
+</div>
+<div id="loader">
+    <img src="img/ripple.svg" alt="loader">
+</div>
+<div id="overlay">
+    <div id="thx">
+        Спасибо! Мы обязательно вам перезвоним
+    </div>
+</div>
+     <script src="js/jquery-3.3.1.min.js"></script>
+     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+     <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+     <script type="text/javascript" src="js/slick.min.js"></script>
+     <script src="js/main.js"></script>
 </body>
 </html>
