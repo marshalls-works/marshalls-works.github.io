@@ -32,7 +32,29 @@
 
 @media screen and (max-width: 1024px) { 
 
-.logo {
+
+
+	.container {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.modif_boot1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 53.333333%;
+    max-width: 58.333333%;
+	}
+	
+	.modif_boot2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 44.666667%;
+    max-width: 72.666667%;
+	}
+
+
+	.logo {
     width: 238px;
     height: 68px;
     margin: 15px 0 5px;
@@ -87,6 +109,34 @@
 	.mission__info_next {
     width: 290px;
     }
+
+	.legal__go_about {
+    height: 70px;
+    margin-top: 55px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    padding: 13px;
+    border-radius: 3px;
+    color: #b81c31;
+	}
+
+
+	.legal__frame_about:hover {
+    border: 2px solid #b81c31;
+    padding: 6px;
+    display: block;
+    border-radius: 3px;
+    color: #b81c31;
+	}
+
+	.legal__frame_about {
+    color: #a1a6af;
+    display: block;
+    border: 2px solid transparent;
+    padding: 6px;
+	}
+
+
+
 
     /*---------------Contacts---------------*/
     .wrapper__square:before {
@@ -157,6 +207,14 @@
     	height: auto;
  		margin: 0;
  	}
+
+ 	.modif_boot1, .modif_boot2 {
+ 		-webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+ 	}
+
 
  	.head__menu {
     margin-top: 20px;
@@ -594,7 +652,8 @@
 	/*---------------Contacts---------------*/
 
 	.networks__info {
-    margin-right: 2.5%;
+    margin-right: 0;
+    width: 145px;
 	}
 
 	.service__header h1 {
@@ -634,9 +693,6 @@
     height: 132px;
 	}
 
-	.networks__info {
-    margin-right: 2.5%;
-	}
 
 	.legal__frame_about {
     color: #a1a6af;
@@ -737,7 +793,20 @@
 	}
 
 	.free-cons__pict {
-    margin-right: 80px;
+    margin: 0;
+    position: absolute;
+    left: 69%;
+    width: 25%;
+    bottom: 1%;
+	}
+
+	.object {
+    margin-top: 20px;
+    width: 100%;
+	}
+
+	.apply {
+    font-size: 12px;
 	}
 
 	.aside {
@@ -765,7 +834,7 @@
 }
 
 	.slick-dots {
-    margin: 0 172px;
+    margin: 0 158px;
     padding-bottom: 45px;
 	}
 
@@ -781,6 +850,17 @@
 	.form__button {
     margin: 30px 0 0 45px;
 	}
+
+	.input input {
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #bbbbbc;
+    padding-left: 0;
+    position: absolute;
+    left: 9%;
+    top: 13%;
+}
 
 }
 
@@ -824,6 +904,12 @@
     left: 0%;
 	}
 
+
+	.networks__info {
+    margin-right: 0;
+    width: 95px;
+	}
+
 }
 
 @media screen and (max-width: 320px) {
@@ -844,11 +930,11 @@
 }
 
 	.slick-dots {
-    margin: 0px 123px;
+    margin: 0px 108px;
 	}
 
 	.wrapper__square {
-    width: 334px;
+    width: 320px;
     padding: 20px 15px 15px;
     left: 0%;
 	}
@@ -858,20 +944,31 @@
     font-size: 13px;
 	}
 
-		
-	.fa-search {
-    font-size: 16px;
-    color: #bbbbbc;
-    margin-left: -94px;
+	.free-cons__pict {
+    margin: 0;
+    position: absolute;
+    left: 57%;
+    width: 34%;
+    bottom: 1%;
 	}
 
-	.input {
+	.free-cons__title {
+    text-align: center;
+	}
+
+	.number {
+    padding: inherit;
+    width: inherit;
+	}
+
+
+	/*---.input {
     display: block;
     background: #f9f9fa;
     border: 3px solid #eeeeef;
     border-radius: 5px;
     width: 122px;
-	}
+	}---*/
 
 	.wrapper__title h4 {
     color: #fff;
@@ -890,7 +987,7 @@
 	}
 
 	.apply {
-    width: 153px;
+    width: 127px;
     height: 52px;
     text-align: center;
     line-height: 44px;
@@ -906,11 +1003,51 @@
     width: 157px;
 	}
 
-	.free-cons__pict {
-    margin-right: 153px;
-    margin-top: 5px;
-    width: 105px;
-    height: 105px;
+
+	.networks__info {
+		display: none;
+	}
+
+	.legal__space_media {
+    width: 310px;
+    margin-right: -16px;
+    flex-direction: row;
+    margin-bottom: 48px;
+	}
+	.arcticmodal-container_i2
+	{
+		padding: 0;
+	}
+
+
+	.legal__frame_about {
+    color: #a1a6af;
+    display: block;
+    border: 2px solid transparent;
+    padding: 7px;
+	}
+
+	.legal__space_media {
+    width: 100%;
+    margin-right: 0px;
+    flex-direction: row;
+    margin-bottom: 0;
+    padding-bottom: 48px;
+	}
+
+
+	.cat__title {
+    color: #081d42;
+    font-weight: 700;
+    font-size: 29px;
+    margin-bottom: 30px;
+    padding: 0px 15px;
+	}
+
+	.powers__title {
+    color: #081d42;
+    font-size: 28px;
+    padding: 0px 15px;
 	}
 
 

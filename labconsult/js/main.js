@@ -15,62 +15,6 @@ $(function () {
         return false; // выключаем стандартное действие
     });
 
-
-    // Вызов модального окна
-    $('.button__js').on('click', function(e) {
-        e.preventDefault();
-        $('#exampleModal').arcticmodal();
-    });
-
-    // Вызов модального окна
-    $('.backgr__pict1').on('click', function(e) {
-        e.preventDefault();
-        $('#hidden-content-b1').arcticmodal();
-    });
-
-    // Вызов модального окна
-    $('.backgr__pict2').on('click', function(e) {
-        e.preventDefault();
-        $('#hidden-content-b2').arcticmodal();
-    });
-
-    // Вызов модального окна
-    $('.backgr__pict3').on('click', function(e) {
-        e.preventDefault();
-        $('#hidden-content-b3').arcticmodal();
-    });
-
-    // Вызов модального окна
-    $('.backgr__pict4').on('click', function(e) {
-        e.preventDefault();
-        $('#hidden-content-b4').arcticmodal();
-    });
-
-
-
-    // Slick slider
-    $('.big-slider').slick({
-        // settings
-        arrows:true,
-        nextArrow: '<button type="button" class="slick-next arrow__right"><i class="fal fa-angle-right"></i></button>',
-        prevArrow: '<button type="button" class="slick-prev arrow__left"><i class="fal fa-angle-left"></i></button>',
-        dots: true,
-        responsive: [
-            {
-                breakpoint: 960,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true
-                }
-            }
-        ]
-    });
-
-
-
-    
-    
     // Form send
         $('[data-submit]').on('click', function(e){
             e.preventDefault();
@@ -145,4 +89,62 @@ $(function () {
         $('.js-form').each(function() {
             valEl($(this));
         });
+
+
+    // Вызов модального окна
+    $('.button__js').on('click', function(e) {
+        e.preventDefault();
+        $('#exampleModal').arcticmodal();
+    });
+
+    // Вызов модального окна
+    $('.backgr__pict1').on('click', function(e) {
+        e.preventDefault();
+        $('#hidden-content-b1').arcticmodal();
+    });
+
+    // Вызов модального окна
+    $('.backgr__pict2').on('click', function(e) {
+        e.preventDefault();
+        $('#hidden-content-b2').arcticmodal();
+    });
+
+    // Вызов модального окна
+    $('.backgr__pict3').on('click', function(e) {
+        e.preventDefault();
+        $('#hidden-content-b3').arcticmodal();
+    });
+
+    // Вызов модального окна
+    $('.backgr__pict4').on('click', function(e) {
+        e.preventDefault();
+        $('#hidden-content-b4').arcticmodal();
+    });
+
+
+
+    // Slick slider
+    $('.big-slider').slick({
+        // settings
+        arrows:true,
+        nextArrow: '<button type="button" class="slick-next arrow__right"><i class="fal fa-angle-right"></i></button>',
+        prevArrow: '<button type="button" class="slick-prev arrow__left"><i class="fal fa-angle-left"></i></button>',
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 960,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true
+                }
+            }
+        ]
+    });
+
+
+
+    
+    
+    
 });
