@@ -4,6 +4,14 @@
     margin-left: 46px;
 	}
 
+	.burger, .burger_trigger {
+		display: none;
+	}
+
+	.nav__menu {
+		display: none;
+	}
+
 	.media_wrap {
 	display: inherit;
 	}
@@ -27,6 +35,75 @@
 	display: inherit;
 	}
 
+	.burger, .burger_trigger {
+		display: none;
+	}
+
+}
+
+
+@media screen and (max-width: 1255px) {
+	
+	.container {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+
+
+	.modif_boot1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 53.333333%;
+    max-width: 58.333333%;
+	}
+	
+	.modif_boot2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 44.666667%;
+    max-width: 72.666667%;
+	}
+
+
+	.logo {
+    width: 238px;
+    height: 68px;
+    margin: 15px 0 5px;
+	}
+
+	.head__button {
+    margin-left: -10px;
+	}
+
+
+	.menu__list {
+    width: 100%;
+    margin-left: 15px;
+	}
+
+	.menu__item {
+    margin-left: 16px;
+    font-size: 16px;
+	}
+
+	.head__button {
+    margin-top: 22px;
+    font-size: 16px;
+       width: 170px;
+    height: 48px;
+    line-height: 40px;
+	}
+
+
+.menu__item {
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+.media__hide {
+	display: hidden;
+}
 }
 
 
@@ -35,9 +112,10 @@
 
 
 	.container {
-		margin-left: 0;
-		margin-right: 0;
+    max-width: 100%;
 	}
+
+
 
 	.modif_boot1 {
     -webkit-box-flex: 0;
@@ -139,12 +217,6 @@
 
 
     /*---------------Contacts---------------*/
-    .wrapper__square:before {
-    content: '';
-    position: absolute;
-    top: 5px;
-    right: 99.6%;
-	}
 
 	.mr_left {
 		margin-left: 20px;
@@ -182,23 +254,79 @@
     margin-right: 0;
 	}
 
-	.slider__lowbody {
-    margin-left: -10px;
-	}
-
-	.testim__info {
-    margin-left: 0px;
-	}
-
 	.slick-dots {
-    margin: 0 125px;
+    display: flex;
+    justify-content: space-between;
+    width: 68px;
+    position: absolute;
+    left: 38.5%;
 	}
+
+
 
 	.aside {
 		margin-top: 50px;
 	}
 
  }
+
+
+	@media screen and (max-width: 990px) {
+
+	.media__menu {
+    display: flex;
+         width: 100%;
+	}
+
+	.container {
+		margin-right: auto;
+    margin-left: auto;
+	}
+
+	.tags__info {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+	}
+
+	.media_wrap {
+    display: block;
+	}
+
+	.head__menu {
+    margin-top: 20px;
+    padding: 0px;
+	}
+
+	.head__button {
+    margin-top: 8px;
+    margin-left: -63px;
+	}
+
+	.wrapper__square {
+    left: 38%;	
+	}
+
+	.menu__list {
+    width: 100%;
+    margin-left: 0;
+	}
+
+	.menu__item {
+    margin-left: 16px;
+    font-size: 16px;
+	}
+
+	.slick-dots {
+		left: 45.5%;
+	}
+
+
+	}
+
+
+
 
  @media screen and (max-width: 768px) {
  	
@@ -222,7 +350,8 @@
 	}
 
 	.head__button {
-    margin-left: -5px;
+    margin-left: 10px;
+    margin-top: 22px;
 	}
 
 	.offer {
@@ -249,8 +378,8 @@
     }
 
  	.menu__list {
-    width: 533px;
     margin-left: 0;
+    line-height: 2.2;
 	}
 
 	.confidence__item h4 {
@@ -434,13 +563,12 @@
 	}
 
 	.wrapper__square {
-		left: 35%;
+    left: 3%;
+    width: 406px;
 	}
 
 	.wrapper__square:before {
-    content: '';
-    position: absolute;
-    top: 5px;
+    display: none;
 	}
 
 		/*---------------services---------------*/
@@ -448,7 +576,7 @@
 	.law__info {
     font-size: 14px;
     font-weight: 300;
-    width: 686px;
+    width: 100%;
 	}
 
 	.law {
@@ -458,8 +586,8 @@
 
 	.pict__work {
     width: 150px;
-    margin: 30px 270px 0px;
-    padding: 0;
+        display: block;
+    margin: 30px auto 0;
 	}
 
 	.law__title {
@@ -479,6 +607,27 @@
     line-height: 15px;
 	}
 
+
+	.free-cons {
+		width: 100%;
+	}
+
+	.free-cons__info {
+    width: 100%;
+    padding: 30px 30px 10px;
+	}
+
+	.object {
+    margin-top: 20px;
+    width: 100%;
+	}
+
+	.free-cons__comment {
+    width: 100%;
+    color: #888d95;
+    font-size: 12px;
+	}	
+
 	
 
 	.nav__point {
@@ -495,9 +644,7 @@
 	}
 
 
-	.slider__lowbody {
-    margin-left: 0;
-	}
+	
 
 	.testim__info {
    
@@ -507,8 +654,7 @@
 	}
 
 	.slick-dots {
-    margin: 0 324px;
-    padding-bottom: 0px;
+       left: 43.5%;
 	}
 
 	.slick-prev {
@@ -536,7 +682,6 @@
 	}
 
 	.testimonials {
-		padding-bottom: 150px;
 	}
 
 
@@ -545,7 +690,21 @@
 
  }
 
+
+ @media screen and (max-width: 675px) {
+ 	.networks__info {
+    margin-right: 0.5%;
+	}
+
+	.free-cons__pict {
+		display: none;
+	}
+
+
+ }
+
  @media screen and (max-width: 425px) {
+
 	.head__menu {
 		display: none;
 	}
@@ -555,12 +714,33 @@
 		flex-direction: row;
 	}
 
-	.navbar {
+	.burger, .burger_trigger {
 		display: block;
 	}
 
+	.nav__menu {
+		display: block;
+	}
+
+	.input {
+    display: block;
+    background: #f9f9fa;
+    border: 3px solid #eeeeef;
+    border-radius: 5px;
+    height: 40px;
+    color: #000;
+    width: 170px;
+    position: relative;
+	}
+
+
 	.head__button {
     margin-top: 22px;
+    margin-left: 45px;
+	}
+
+	.burger_trigger {
+    padding: 0.85rem .75rem;
 	}
 
 	.navbar-toggler {
@@ -576,7 +756,7 @@
 	}
 
 	.offer {
-		width: 98%;
+    width: 96%;
 	}
 
 	.offer__desript {
@@ -672,7 +852,8 @@
 	}
 
 	.wrapper__square {
-    width: 463px;
+        left: 0%;
+    width: 100%;
     padding: 20px 15px 15px;
 	}
 
@@ -700,10 +881,7 @@
     margin-right: 0px;
 	}
 
-	.wrapper__square {
-		left: 3%;
-		width: 406px;
-	}
+
 
 	.legal__go_about {
     height: 47px;
@@ -748,7 +926,6 @@
 	}
 
 	.legal__space_media {
-    width: 425px;
     margin-right: 0;
     flex-direction: row;
     margin-bottom: 48px;
@@ -817,9 +994,6 @@
     padding-bottom: 50px;
 	}
 
-	.testimonials {
-    padding-bottom: 0px;
-	}
 
 	.testim__info {
     font-size: 12px;
@@ -834,7 +1008,7 @@
 }
 
 	.slick-dots {
-    margin: 0 158px;
+		left: 41.5%;
     padding-bottom: 45px;
 	}
 
@@ -890,7 +1064,6 @@
 	}
 
 	.slick-dots {
-    margin: 0 153px;
     padding-bottom: 45px;
 	}
 
@@ -899,7 +1072,6 @@
 	}
 
 	.wrapper__square {
-    width: 373px;
     padding: 20px 15px 15px;
     left: 0%;
 	}
@@ -930,11 +1102,10 @@
 }
 
 	.slick-dots {
-    margin: 0px 108px;
+		left: 38.5%;
 	}
 
 	.wrapper__square {
-    width: 320px;
     padding: 20px 15px 15px;
     left: 0%;
 	}
@@ -944,13 +1115,6 @@
     font-size: 13px;
 	}
 
-	.free-cons__pict {
-    margin: 0;
-    position: absolute;
-    left: 57%;
-    width: 34%;
-    bottom: 1%;
-	}
 
 	.free-cons__title {
     text-align: center;
@@ -999,10 +1163,6 @@
     width: 115px;
 	}
 
-	.free-cons__comment {
-    width: 157px;
-	}
-
 
 	.networks__info {
 		display: none;
@@ -1028,7 +1188,6 @@
 	}
 
 	.legal__space_media {
-    width: 100%;
     margin-right: 0px;
     flex-direction: row;
     margin-bottom: 0;

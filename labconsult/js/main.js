@@ -1,10 +1,15 @@
 $(function () {
     // Вызов меню
-    $('.hamburger').on('click', function(e) {
-        e.preventDefault();
-        $(this).toggleClass('is-active');
-        $('.menu').toggleClass('menu_active');
-    });
+    $('.burger_trigger, .nav__menu').click(function(){
+  $('.nav__menu').toggleClass('menu_opened');
+})
+$(document).click(function(event) {
+    if ($(event.target).closest(".burger_trigger").length ) return;
+    $('.nav__menu').removeClass('menu_opened');
+    event.stopPropagation();
+});
+
+
 
     // Прокрутка к секции
     $('.go_to').click( function(){ // ловим клик по ссылке с классом go_to
