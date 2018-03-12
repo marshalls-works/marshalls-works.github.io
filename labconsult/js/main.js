@@ -95,37 +95,23 @@ $(document).click(function(event) {
             valEl($(this));
         });
 
+// функция вызова модального окна
+    function modalOpening(modalTrigger, modalContent) {
+        var modalTriggerSelector = $(modalTrigger),
+          modalContentSelector = $(modalContent);
 
-    // Вызов модального окна
-    $('.button__js').on('click', function(e) {
-        e.preventDefault();
-        $('#exampleModal').arcticmodal();
-    });
+        modalTriggerSelector.on('click', function(e) {
+            e.preventDefault();
 
-    // Вызов модального окна
-    $('.backgr__pict1').on('click', function(e) {
-        e.preventDefault();
-        $('#hidden-content-b1').arcticmodal();
-    });
+            modalContentSelector.arcticmodal();
+        })
+    }
 
-    // Вызов модального окна
-    $('.backgr__pict2').on('click', function(e) {
-        e.preventDefault();
-        $('#hidden-content-b2').arcticmodal();
-    });
-
-    // Вызов модального окна
-    $('.backgr__pict3').on('click', function(e) {
-        e.preventDefault();
-        $('#hidden-content-b3').arcticmodal();
-    });
-
-    // Вызов модального окна
-    $('.backgr__pict4').on('click', function(e) {
-        e.preventDefault();
-        $('#hidden-content-b4').arcticmodal();
-    });
-
+    modalOpening('.button__js', '#exampleModal'); // вызываем modalOpening для открытия exampleModal по клику на button__js
+    modalOpening('.backgr__pict1', '#hidden-content-b1');
+    modalOpening('.backgr__pict2', '#hidden-content-b2');
+    modalOpening('.backgr__pict3', '#hidden-content-b3');
+    modalOpening('.backgr__pict4', '#hidden-content-b4');
 
 
     // Slick slider
