@@ -66,11 +66,19 @@
 								психологические узлы. Попробуйте и Вы.”
 							</h1>
 						</div>
-						<form class="header__form">
-							<input class="form__input form-send form__field" type="text" name="name" placeholder="Ваше имя" required>
-							<input class="form__input form-send form__field" type="email" name="email" placeholder="E-mail" required>
-							<input class="form__input form-send form__field" type="tel" name="tel" placeholder="Телефон" required>
-							<button class="button block form__button" data-submit>Решить проблемы</button>
+						<form class="header__form form js-form" action="success.php" method="POST">
+							<div class="d-flex">
+								<div class="d-flex specform">
+									<input class="form__input form-send form__field" type="text" name="name" placeholder="Ваше имя" required>
+								</div>
+								<div class="d-flex specform">
+									<input class="form__input form-send form__field" type="email" name="email" placeholder="E-mail" required>
+								</div>
+								<div class="d-flex specform">
+									<input class="form__input form-send form__field" type="tel" name="tel" placeholder="Телефон" required>
+								</div>
+							</div>
+							<button class="button block form__button button__js" data-submit>Решить проблемы</button>
 						</form>
 					</div>
 				</div>
@@ -114,20 +122,68 @@
 							<div class="gallery">
 								<div class="gallery__upper d-flex">
 									<div class="gallery__vertical">
-										<a href="#"><img class="pict__gal_big grow" src="img/gal1.jpeg"></a>
+										<div style="display: none;">
+                        					<div class="box-modal" id="hidden-content-b1">
+                           						 <div class="box-modal_close arcticmodal-close">
+                               						 <i class="far fa-times-circle"></i>
+                            					</div>
+                            					<img class="modal_img" src="img/gal1.jpeg">
+                        					</div>
+                    					</div>
+										<a href="#" class="backgr__pict1"><img class="pict__gal_big grow" src="img/gal1.jpeg"></a>
 									</div>
 									<div class="gallery__horizontal">
-										<a href="#"><img class="pict__gal_small gal_space grow" src="img/gal2.jpeg"></a>
-										<a href="#"><img class="pict__gal_small grow" src="img/gal3.jpeg"></a>
+										<div style="display: none;">
+                        					<div class="box-modal" id="hidden-content-b2">
+                           						 <div class="box-modal_close arcticmodal-close">
+                               						 <i class="far fa-times-circle"></i>
+                            					</div>
+                            					<img class="modal_img" src="img/gal2.jpeg">
+                        					</div>
+                    					</div>
+                    					<div style="display: none;">
+                        					<div class="box-modal" id="hidden-content-b3">
+                           						 <div class="box-modal_close arcticmodal-close">
+                               						 <i class="far fa-times-circle"></i>
+                            					</div>
+                            					<img class="modal_img" src="img/gal3.jpeg">
+                        					</div>
+                    					</div>
+										<a href="#"><img class="pict__gal_small gal_space backgr__pict2 grow" src="img/gal2.jpeg"></a>
+										<a href="#"><img class="pict__gal_small grow backgr__pict3" src="img/gal3.jpeg"></a>
 									</div>
 								</div>
 								<div class="gallery__lower d-flex">
 									<div class="gallery__horizontal_low">
-										<a href="#"><img class="pict__gal_small gal_space grow" src="img/gal4.jpeg"></a>
-										<a href="#"><img class="pict__gal_small grow" src="img/gal5.jpeg"></a>
+										<div style="display: none;">
+                        					<div class="box-modal" id="hidden-content-b4">
+                           						 <div class="box-modal_close arcticmodal-close">
+                               						 <i class="far fa-times-circle"></i>
+                            					</div>
+                            					<img class="modal_img" src="img/gal4.jpeg">
+                        					</div>
+                    					</div>
+                    					<div style="display: none;">
+                        					<div class="box-modal" id="hidden-content-b5">
+                           						 <div class="box-modal_close arcticmodal-close">
+                               						 <i class="far fa-times-circle"></i>
+                            					</div>
+                            					<img class="modal_img" src="img/gal5.jpeg">
+                        					</div>
+                    					</div>
+										<a href="#"><img class="pict__gal_small backgr__pict4 gal_space grow" src="img/gal4.jpeg"></a>
+										<a href="#"><img class="pict__gal_small grow backgr__pict5" src="img/gal5.jpeg"></a>
 									</div>
 									<div class="gallery__vertical_low">
-										<a href="#"><img class="pict__gal_big grow" src="img/gal6.jpeg"></a>
+										<div style="display: none;">
+                        					<div class="box-modal" id="hidden-content-b6">
+                           						 <div class="box-modal_close arcticmodal-close">
+                               						 <i class="far fa-times-circle"></i>
+                            					</div>
+                            					<img class="modal_img" src="img/gal6.jpeg">
+                        					</div>
+                    					</div>
+										<a href="#"><img class="pict__gal_big grow backgr__pict6" src="img/gal6.jpeg"></a>
 									</div>
 								</div>
 							</div>
@@ -279,6 +335,14 @@
 				</div>
 			</div>
 		</footer>
+<div id="loader">
+    <img src="img/ripple.svg" alt="loader">
+</div>
+<div id="overlay">
+    <div id="thx">
+        Спасибо! Менеджер свяжется с вами в течении 15 минут!
+    </div>
+</div>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<script src="js/jquery-3.3.1.min.js"></script>
      <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>

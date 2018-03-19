@@ -112,6 +112,8 @@ $(document).click(function(event) {
     modalOpening('.backgr__pict2', '#hidden-content-b2');
     modalOpening('.backgr__pict3', '#hidden-content-b3');
     modalOpening('.backgr__pict4', '#hidden-content-b4');
+    modalOpening('.backgr__pict5', '#hidden-content-b5');
+    modalOpening('.backgr__pict6', '#hidden-content-b6');
 
 
     // Slick slider

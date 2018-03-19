@@ -272,6 +272,7 @@ li {
 }
 
 .form__input, .form-send {
+  height: 40px;
   width: 180px;
   border-radius: 5px;
    border: 3px solid #eeeeef;
@@ -282,6 +283,10 @@ li {
   -moz-box-shadow: none;
 -webkit-box-shadow: none;
 box-shadow: none;
+}
+
+.specform {
+  flex-direction: column;
 }
 
 .form-send {
@@ -299,7 +304,9 @@ box-shadow: none;
     background-clip: padding-box;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-right: 5px;
 }
+
 
 .header__form input {
    color: rgba(0, 0, 0, 0.5);
@@ -627,4 +634,68 @@ box-shadow: none;
 
 .year {
   margin-right: 20px;
+}
+
+#loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(240, 240, 240, 0.91);
+    overflow: hidden;
+    display: none;
+}
+
+#loader img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    top: 50%;
+    margin-top: -25px;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #000c;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+#thx {
+  background: #fff;
+  position: absolute;
+  left: 33%;
+  top: 50%;
+  padding: 30px;
+  margin-top: -20px;
+  border-radius: 5px;
+}
+
+#name-error, #email-error, #tel-error {
+ font-size: 12px;
+ width: 180px;
+ position: absolute;
+    top: 59%;
+}
+
+.modal_img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.box-modal {
+  text-align: center;
+}
+
+.box-modal_close {
+  text-align: right;
+    width: 75%;
+    font-size: 25px;
+    color: white;
 }
