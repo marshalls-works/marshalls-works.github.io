@@ -1,4 +1,5 @@
-<html>
+<!doctype html>
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport"
@@ -23,30 +24,41 @@
 						<div class="col-lg-4">
 							<div class="media__soc">
 								<p class="media__item">
-									<a href="#"><i class="soc fab fa-facebook-square"></i></a>
+									<a href="https://www.facebook.com/ira.lebed.9"><i class="soc fab fa-facebook-square"></i></a>
 								</p>
 								<p class="media__item">
-									<a href="#"><i class="soc fab fa-vk"></i></a>
+									<a href="https://vk.com/id151836735"><i class="soc fab fa-vk"></i></a>
 								</p>
 								<p class="media__item">
-									<a href="#"><i class="soc fab fa-instagram"></i></a>
+									<a href="https://www.instagram.com/iralebed.mak/"><i class="soc fab fa-instagram"></i></a>
 								</p>
 							</div>
 						</div>
 						<div class="col-lg-8">
 							<nav class="navigation">
 								<ul class="d-flex">
-									<li class="navigation__item">
-										<a href="#">Главная</a>
+									<li class="navigation__item-main">
+										<a href="index.html" class="link__to">Главная</a>
 									</li>
 									<li class="navigation__item">
-										<a href="#">Мои услуги</a>
+										<a href="services.html" class="link__to">Мои услуги</a>
+										<ul class="hide__nav">
+											<li class="hide__nav_item">
+												<a href="serv_cards.html" class="link__to">Мои колоды</a>
+											</li>
+											<li class="hide__nav_item">
+												<a href="couch.html" class="link__to">Мои коучинги</a>
+											</li>
+											<li class="hide__nav_item">
+												<a href="services.html" class="link__to">Консультации</a>
+											</li>
+										</ul>
+									</li>
+									<li class="navigation__item-blog">
+										<a href="blog.html" class="link__to">Блог</a>
 									</li>
 									<li class="navigation__item">
-										<a href="#">Блог</a>
-									</li>
-									<li class="navigation__item">
-										<a href="#">Контакты</a>
+										<a href="contacts.html" class="link__to">Контакты</a>
 									</li>
 								</ul>
 							</nav>
@@ -66,8 +78,9 @@
 								психологические узлы. Попробуйте и Вы.”
 							</h1>
 						</div>
-						<form class="header__form form js-form" action="success.php" method="POST">
-							<div class="d-flex">
+						<div class="form_with">
+							<form class="header__form form js-form" action="success.php" method="POST">
+							<div class="d-flex rel_pos rel_pos_width-first">
 								<div class="d-flex specform">
 									<input class="form__input form-send form__field" type="text" name="name" placeholder="Ваше имя" required>
 								</div>
@@ -80,6 +93,7 @@
 							</div>
 							<button class="button block form__button button__js" data-submit>Решить проблемы</button>
 						</form>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -196,13 +210,13 @@
 					<div class="col-12">
 						<div class="media__soc_colour d-flex">
 							<p class="media__link media__link_blue block grow">
-								<a href="#"><i class="fab fa-facebook-square"></i></a>
+								<a href="https://www.facebook.com/ira.lebed.9"><i class="fab fa-facebook-square"></i></a>
 							</p>
 							<p class="media__link media__link_lightblue block grow">
-								<a href="#"><i class="fab fa-vk"></i></a>
+								<a href="https://vk.com/id151836735"><i class="fab fa-vk"></i></a>
 							</p>
 							<p class="media__link media__link_violet block grow">
-								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="https://www.instagram.com/iralebed.mak/"><i class="fab fa-instagram"></i></a>
 							</p>
 						</div>
 					</div>
@@ -320,10 +334,10 @@
 						<div class="col-lg-7">
 							<div class="footer__right">
 								<span class="footer__form-title">Остались вопросы? Я перезвоню Вам!</span>
-								<form class="footer__form">
+								<form class="footer__form form js-form" action="success.php" method="POST">
 									<input class="form__input_footer form-control block form__field" type="text" name="name" placeholder="Ваше имя" required>
 									<input class="form__input_footer form-control block form__field" type="tel" name="tel" placeholder="Телефон" required>
-									<button class="button form__button_footer block shrink" data-submit>Заказать звонок</button>
+									<button class="button form__button_footer button__js block shrink" data-submit>Заказать звонок</button>
 								</form>
 								<div class="rights">
 									<span class="year">2018 Все права защищены</span>
@@ -340,7 +354,7 @@
 </div>
 <div id="overlay">
     <div id="thx">
-        Спасибо! Менеджер свяжется с вами в течении 15 минут!
+        Спасибо! Я свяжусь с Вами в ближайшее время!
     </div>
 </div>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
