@@ -364,10 +364,9 @@ li {
 }
 
 .offer {
-  position: absolute;
+  
     color: white;
-    top: 40%;
-    left: 47%;
+    
     width: 580px;
 }
 
