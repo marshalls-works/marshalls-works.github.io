@@ -898,6 +898,12 @@ box-shadow: 0 5px 10px rgba(26,58,117,.4);
 	margin-bottom: 25px;
 }
 
+ textarea {
+ 	resize: none!important;
+ 	overflow: auto;
+ 	 outline: none;
+ }
+
 .cell__big {
 	background: #fff;
 	border: 0px;
@@ -908,7 +914,7 @@ box-shadow: 0 5px 10px rgba(26,58,117,.4);
 	margin-bottom: 25px;
 	vertical-align: text-top;
 	line-height: 24px;
-	
+	resize: none!important;
 }
 
 

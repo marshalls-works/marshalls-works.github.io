@@ -294,7 +294,7 @@ li {
 .offer__block {
       text-align: right;
     position: absolute;
-    top: 29%;
+    top: 28.5%;
     right: 22%;
 }
 
@@ -370,6 +370,7 @@ li {
 
 .courses {
   padding: 68px 0;
+  background: #fffae7;
 }
 
 .courses h2 {
@@ -500,13 +501,13 @@ li {
 }
 
 .minds__block {
-  padding: 32px 33px 22px;
+  padding: 32px 33px;
   background: #fffae7;
   color: #000!important;
 }
 
 .minds__title {
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   font-weight: 300;
   font-size: 20px;
 }
@@ -517,11 +518,18 @@ li {
   margin-bottom: 12px;
 }
 
-.minds__btn {
-  width: 170px;
-  height: 40px;
+.minds__btn_go {
+    width: 158px;
+    height: 40px;
+    color: #ca766b;
+    line-height: 38px;
+    margin-left: 145px;
+    position: relative;
+    padding: 0 15px 0 0;
+}
+
+.minds__btn_go:hover {
   color: #ca766b;
-  margin-left: 124px;
 }
 
 .fa-caret-right {
@@ -548,12 +556,26 @@ li {
   height: 50px;
   line-height: 48px;
   margin: 36px auto 0;
-  font-size: 26px;
+  font-size: 23px;
+  position: relative;
+  padding: 0 26px 0 0;
 }
 
 .caret-size {
-  font-size: 24px;
-  line-height: 5px;
+       font-size: 24px;
+    line-height: 5px;
+    position: absolute;
+    top: 46.9%;
+    margin-left: 19px;
+}
+
+.caret-size-minds {
+    font-size: 18px;
+    line-height: 5px;
+    position: absolute;
+    top: 46%;
+    position: absolute;
+    margin-left: 15px;
 }
 
 /*-------------------------------------------Footer-------------------------------------------*/
@@ -804,4 +826,414 @@ li {
 
 .album {
   margin: 48px 0;
+}
+
+
+/*-------------------------------------------Contacts-------------------------------------------*/
+
+.head__title, .head__descript, .contacts__social, .form, .callme, .article__title {
+  text-align: center;
+}
+
+.form {
+  display: block;
+  margin: 0 auto;
+}
+
+.form__sender  {
+  display: block;
+  margin: 0 auto;
+  width: 355px;
+}
+
+.head__title {
+  font-weight: 100;
+  font-size: 43px;
+  margin: 64px auto 34px;
+}
+
+.head__descript {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 0 auto 47px;
+}
+
+.contacts__social {
+    background: #fffae7;
+    padding: 23px 0 9px;
+}
+
+.social__title {
+  font-weight: 500;
+  font-size: 22px;
+  color: #1c2216;
+  margin-bottom: 23px;
+}
+
+.e-mail {
+  color: #1c2216;
+  font-size: 15px;
+      display: block;
+    margin-bottom: 10px;
+}
+
+.contact__insta, .contact__fb, .contact__pint {
+  color: #a72b1f;
+  margin-right: 15px;
+}
+
+.contact__linkin {
+  color: #1c2216;
+}
+
+.form span {
+  font-size: 19px;
+  font-weight: 100;
+  display: block;
+  margin: 47px auto 37px;
+}
+
+.input {
+  font-size: 14px;
+  font-weight: 100;
+  color: #b9bab8;
+  padding: 12px 0 11px 17px;
+  width: 355px;
+  border-radius: 8px;
+  border: 1px solid #838383;
+  margin-bottom: 17px;
+}
+
+.input:focus {
+    color: #1c2216;
+}
+
+.cell__big {
+  font-size: 14px;
+  font-weight: 100;
+  color: #b9bab8;
+  padding: 12px 0 11px 17px;
+  width: 355px;
+  border-radius: 8px;
+  border: 1px solid #838383;
+  height: 110px;
+  vertical-align: text-top;
+  resize: none!important;
+  overflow: auto;
+   outline: none;
+}
+
+.send__btn {
+  margin: 23px auto 0;
+  border: none;
+  color: #fffae7;
+  font-weight: 100;
+  font-size: 16px;
+  width: 133px;
+  height: 39px;
+}
+
+.callme span {
+  margin: 47px auto 16px;
+}
+
+.number {
+  margin-bottom: 64px;
+  font-size: 22px;
+}
+
+
+
+/*-------------------------------------------Events-------------------------------------------*/
+
+
+
+.head__subtitle {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  margin: -15px auto 23px;
+}
+
+.master__backgr {
+     background: url(../img/master__backgr.png) no-repeat fixed center top/cover;
+   height: 100%;
+}
+
+.master__title {
+  display: block;
+  font-weight: 100;
+  font-size: 43px;
+  text-align: center;
+  padding: 64px 0;
+}
+
+.master__item h5 {
+  font-weight: 100;
+  font-size: 22px;
+  width: 258px;
+  margin-bottom: 20px;
+  background: rgba(255, 250, 231, 0.7);
+  padding: 5px 10px;
+}
+
+.master__item {
+    flex-direction: column;
+    align-items: center;
+}
+
+.master__info {
+  background: #666a5b;
+  color: #fffae7;
+  width: 260px;
+  height: 60px;
+  justify-content: space-evenly;
+    align-items: center;
+}
+
+.master__date {
+  width: 100px;
+}
+
+.date, .time-place {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.master__btn {
+  width: 104px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 33px;
+  display: block;
+}
+
+.master__block {
+  margin-bottom: 64px;
+}
+
+
+
+/*-------------------------------------------Gallery-------------------------------------------*/
+
+
+.background__gallery {
+  background: url(../img/backgr-gallery.png) no-repeat fixed center top/cover;
+  height: 121.6vh;
+  color: #fcfbdd;
+}
+
+.overlay__gallery {
+    background: rgba(28, 34, 22, 0.5);
+  height: 121.6vh;
+}
+
+.gallery__offer {
+  text-align: center;
+}
+
+.gallery__title {
+  font-weight: 100;
+  font-size: 84px;
+  margin-bottom: 24px;
+  margin-top: 88px;
+}
+
+.gallery__descript {
+  font-size: 18.5px;
+  font-weight: 300;
+  margin-bottom: 126px;
+}
+
+.albums {
+  background: #fffae7;
+  padding-bottom: 80px;
+}
+
+.album__higer {
+  margin: 64px auto 0;
+}
+
+.album__middle {
+  margin: 94px auto 0;
+}
+
+.album__lower {
+  margin: 124px auto 0;
+}
+
+.albums__item {
+  position: relative;
+}
+
+.album__overlay {
+   width: 286px;
+   height: 206px;
+   background: rgba(28, 34, 22, 0.5);
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+.album__name {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 17px;
+  display: block;
+
+}
+
+.album__overlay:hover {
+ opacity: 1;
+}
+
+
+/*-------------------------------------------Minds-------------------------------------------*/
+
+
+.social__title_minds {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.social__minds {
+  margin-top: -20px;
+}
+
+.social__minds a:hover {
+  color: #a72b1f;
+}
+
+.minds, .photos {
+    background: #fffae7;
+  padding-bottom: 80px;
+  margin-top: 30px;
+}
+
+.minds__item, .photo__item {
+  margin: 64px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.minds__name {
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.minds__overlay {
+  background: rgba(28, 34, 22, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 279px;
+   color: #fffae7;
+     font-size: 14px;
+     position: absolute;
+     bottom: 0%;
+}
+
+.minds__date {
+  padding: 13px 0;
+  display: block;
+}
+
+.minds__text {
+  padding: 0px 23px 19px 32px;
+}
+
+.minds__btn {
+  display: block;
+  margin: 0 auto 13px;
+   color: #fffae7;
+     font-size: 14px;
+  line-height: 30px;
+  border-color: #fffae7;
+  width: 122px;
+  height: 33px;
+}
+
+
+/*-------------------------------------------Minds-post-------------------------------------------*/
+
+.article {
+  margin-bottom: 80px;
+}
+
+.article__title {
+  font-weight: 100;
+  font-size: 43px;
+  margin: 64px auto;
+}
+
+
+/*-------------------------------------------MK-------------------------------------------*/
+
+.mk__descript {
+  margin-bottom: 80px;
+}
+
+.mk__title {
+  font-weight: 100;
+  font-size: 43px;
+  margin: 64px auto 34px;
+}
+
+.when {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.right__content {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 310px;
+}
+
+.mk-description {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.mk__info {
+  color: #6b6b6b;
+  font-size: 18.5px;
+  margin: 16px 0 30px;
+}
+
+.users-email {
+  display: flex;
+}
+
+.mk-email {
+ font-size: 14px;
+    font-weight: 100;
+    color: #b9bab8;
+    padding: 12px 0 11px 17px;
+    width: 255px;
+    border-radius: 8px;
+    border: 1px solid #838383;
+    margin-bottom: 17px;
+    margin-right: 50px;
+}
+
+.form__btn-mk {
+  border: none;
+  font-size: 16px;
+  color: #fffae7;
+  font-weight: 100;
+  width: 180px;
 }
