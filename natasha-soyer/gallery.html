@@ -10,11 +10,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
-    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/hover.css">
-    <link rel="stylesheet" href="css/hover-min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -28,22 +25,22 @@
                                 <nav class="menu">
                                     <ul class="menu__list d-flex">
                                         <li class="menu__item">
-                                            <a href="index.html">Главная</a>
+                                            <a class="hvr-underline-from-center" href="index.html">Главная</a>
                                         </li>
                                         <li class="menu__item">
-                                            <a href="about.html">Обо мне</a>
+                                            <a class="hvr-underline-from-center" href="about.html">Обо мне</a>
                                         </li>
                                         <li class="menu__item">
-                                            <a href="events.html">Все события</a>
+                                            <a class="hvr-underline-from-center" href="events.html">Все события</a>
                                         </li>
                                         <li class="menu__item">
-                                            <a href="gallery.html">Галерея</a>
+                                            <a class="hvr-underline-from-center" href="gallery.html">Галерея</a>
                                         </li>
                                         <li class="menu__item">
-                                            <a href="minds.html">Мои мысли</a>
+                                            <a class="hvr-underline-from-center" href="minds.html">Мои мысли</a>
                                         </li>
                                         <li class="menu__item">
-                                            <a href="contacts.html">Контакты</a>
+                                            <a class="hvr-underline-from-center" href="contacts.html">Контакты</a>
                                         </li>
                                     </ul>
                                 </nav>  
@@ -53,7 +50,7 @@
                                     <nav class="language__menu">
                                     <ul class="language__list">
                                         <li class="language__item-active">
-                                            <a href="#">
+                                            <a href="index.html">
                                                 <span>RU</span>
                                                 <i class="fas fa-caret-down menu__drop"></i>
                                             </a>
@@ -78,32 +75,32 @@
                 </div>
             </div>
             <div class="gallery__offer">
-                <div class="gallery__title">
+                <div class="gallery__title wow zoomIn">
                     Галерея
                 </div>
-                <div class="gallery__descript">
+                <div class="gallery__descript wow zoomIn">
                     Добро пожаловать в Галерею!<br> 
                     Здесь отображены фотоотчёты с последних событий
                 </div>
             </div>
-                    <div class="about__overlay_gallery">
+            <div class="about__overlay_gallery">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <h4 class="block attention">
+                        <h4 class="block attention wow zoomIn" data-wow-delay="0.8s" data-wow-duration="1.2s">
                             Минуточку Вашего внимания...
                         </h4>
-                        <div class="attention__descript">
+                        <div class="attention__descript wow zoomIn" data-wow-delay="0.8s" data-wow-duration="1.2s">
                             В этом альбоме Вы можете найти мои работы<br>
                             выставленные на продажу. Альбом всегда обновляется.
                         </div>
-                        <a class="button__trans gogallery__btn block" href="#">
-                            Перейти в альбом<i class="fas fa-caret-right caret-top"></i>
+                        <a class="wow zoomIn button__trans gogallery__btn block hvr-icon-forward border-grow" href="open_album.html" data-wow-delay="0.8s" data-wow-duration="1.2s">
+                            Перейти в альбом<i class="hvr-icon fas fa-caret-right caret-top"></i>
                         </a>
                     </div>
                     <div class="col-lg-3">
-                        <a href="#">
-                            <img class="album" src="img/albom.png" alt="album">
+                        <a href="open_album.html">
+                            <img class="album wow zoomIn" data-wow-delay="0.8s" data-wow-duration="1.2s" src="img/albom.png" alt="album">
                         </a>
                     </div>
                 </div>
@@ -113,7 +110,7 @@
     </header>
     <section class="albums">
         <div class="container">
-            <div class="row">
+            <div class="row wow zoomIn" data-wow-offset="230" data-wow-delay="0.5s" data-wow-duration="1.5s">
                 <div class="col-lg-4">
                     <a class="block album__higer" href="open_album.html">
                         <div class="albums__item">
@@ -151,7 +148,7 @@
                     </a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row wow zoomIn" data-wow-offset="200" data-wow-delay="0.5s" data-wow-duration="1.5s">
                 <div class="col-lg-4">
                     <a class="block album__lower" href="open_album.html">
                         <div class="albums__item">
@@ -189,7 +186,7 @@
                     </a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row wow zoomIn" data-wow-offset="200" data-wow-delay="0.5s" data-wow-duration="1.5s">
                 <div class="col-lg-4">
                     <a class="block album__higer" href="open_album.html">
                         <div class="albums__item">
@@ -250,7 +247,7 @@
                         <span class="social__pre block">
                             Natasha Soyer in
                         </span>
-                        <div class="social__block block">
+                        <div class="social__block block wow zoomIn">
                             <a class="social__item insta" target="_blank" href="https://www.instagram.com/natashasoyer_art"><i class="fab fa-instagram"></i></a>
                             <a class="social__item fb" target="_blank" href="https://www.facebook.com/SoyerArtHistory"><i class="fab fa-facebook-square"></i></a>
                             <a class="social__item pint" target="_blank" href="https://ru.pinterest.com/natali383/"><i class="fab fa-pinterest"></i></a>
@@ -264,5 +261,10 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/main.js"></script>
 </body>
 </html>

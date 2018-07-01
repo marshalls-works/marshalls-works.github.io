@@ -1,0 +1,317 @@
+@media screen and (min-width: 2560px) { 
+
+
+.background__main2 {
+  height: 100%;
+}
+
+.overlay__main2 {
+  height: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 1199px) { 
+	
+	.event__description {
+    width: 118%;
+    left: -25%; 
+	}
+
+
+	.menu__item {
+    margin-right: 30px;
+    font-size: 13px;
+   	}
+
+   	.course__pict {
+    width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width: 991px) { 
+
+.language__menu ul {
+    position: absolute;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+
+
+.menu__item {
+    margin-right: 30px;
+    padding: 25px 0 20px;
+    font-size: 13px;
+}
+
+
+.last-menu {
+    padding: 20px 0;
+}
+
+
+.courses {
+    padding: 80px 0 48px;
+}
+
+.course__pict {
+    width: 60%;
+}
+
+.courses__item {
+	margin-bottom: 45px;
+}
+
+.overlay__main2 {
+    padding: 80px 0;
+}
+
+.background__main2, .overlay__main2 {
+	height: 100%
+}
+
+.event__upper {
+    margin: 0 auto 24px;
+    justify-content: center; 
+}
+
+.event__lower {
+	display: flex;
+    justify-content: center;
+}
+
+.event__img {
+   margin-left: 0px
+}
+
+.event__description {
+    width: 77%;
+    padding: 12px 40px 12px 22px;
+    left: 11.5%;
+}
+
+.title__side {
+    margin: 30px 0 41px;
+}
+
+.title__side-media {
+	    margin: 65px auto 30px;
+}
+
+.minds__btn_go {
+    display: block!important;
+    margin: 0 auto;
+}
+
+.all__events {
+    margin: 100px auto 0;
+}
+
+.sign {
+    text-align: center;
+    margin-top: 49px;
+}
+
+.footer__text {
+    margin: 17px 0 26px;
+    text-align: center;
+}
+
+.footer__rights, .social__pre {
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+
+
+.menu {
+	display: none; 
+}
+
+.media__menu {
+	display: block;
+}
+
+.burger_trigger {
+    padding: .25rem .75rem;
+    font-size: 2.9rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: rgba(255,255,255,.5);
+    width: 75px;
+    height: 54px;
+    cursor: pointer;
+}
+
+.nav__menu {
+     opacity: 1;
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 100%;
+    background: rgba(28, 34, 22, 0.7);
+    font-size: 16px;
+    width: 120%;
+    left: 0;
+    text-align: left;
+    z-index: 5;
+    padding: 20px;
+}
+
+.last-menu {
+    padding: 13px 0;
+}
+
+.language__menu li:hover > ul {
+    display: block;
+    background: rgba(28, 34, 22, 0.5)!important;
+    margin: 13.5px 0 0 -8px; 
+}
+
+.burger_trigger {
+    padding: 4px 0px;
+}
+
+
+.name__text {
+    font-size: 72px;
+}
+
+.offer__block {
+    text-align: center;
+    right: 15%;
+}
+
+.offer__descript {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.offer__buttons {
+    text-align: center;
+    right: 15%;
+}
+
+.courses__name {
+    font-size: 26px;
+    padding-bottom: 9px;
+    line-height: 48px;
+}
+
+.couch {
+    width: 104px;
+    margin: 0 auto 9px;
+}
+
+.courses__type {
+    background: #ca766b;
+    font-weight: 700;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+} 
+
+
+@media screen and (max-width: 718px) {
+
+	.offer__block {
+    text-align: center;
+    right: 12%;
+}
+}
+
+@media screen and (max-width: 643px) {
+
+		.offer__block {
+    text-align: center;
+    right: 7%;
+}
+}
+
+@media screen and (max-width: 575px) {
+
+	.offer__block {
+    text-align: center;
+    right: 3%;
+}
+
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 0;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 506px) {
+
+.offer__block {
+    text-align: center;
+    right: 12%;
+}
+
+.name__text {
+    font-size: 54px;
+}
+
+.offer__descript {
+    color: #fffae7;
+    font-size: 14px;
+}
+
+.offer__buttons {
+    text-align: center;
+    right: 0%;
+}
+
+
+.look__more {
+    left: 46%;
+}
+
+}
+
+@media screen and (max-width: 476px) {
+
+.event__description {
+    top: 26%;
+}
+
+.event__img_media {
+	width: 100%;
+}
+
+}
+
+
+
+@media screen and (max-width: 424px) {
+
+	.offer__block {
+    text-align: center;
+    right: 6%;
+}
+}
+
+@media screen and (max-width: 393px) {
+
+	
+}
