@@ -333,9 +333,10 @@ display: none;
 .offer__block {
     text-align: right;
     position: absolute;
-    top: 28.5%;
-    right: 20%;
+    top: 16.5%;
+    right: 7%;
 }
+
 
 .name__line {
     top: 7%;
@@ -475,6 +476,13 @@ display: none;
     padding: 8px 10px 0 0;
 }
 
+.offer__block {
+    text-align: right;
+    position: absolute;
+    top: 16.5%;
+    right: 10%;
+}
+
 }
 
 @media screen and (max-width: 509px) {
@@ -489,7 +497,7 @@ display: none;
 
 .offer__block {
     text-align: center;
-    right: 7%;
+ right: 13%;
 }
 
 .name__text {
@@ -625,6 +633,13 @@ display: none;
 	font-size: 40px;
 }
 
+@media screen and (max-width: 451px) {
+.offer__block {
+    text-align: center;
+    right: 11%;
+}
+
+}
 @media screen and (max-width: 441px) {
 	
 	.about__title {
@@ -642,7 +657,7 @@ display: none;
 }
 
 .look__more_main {
-    left: 45%;
+    left: 41%;
 }
 
 
@@ -667,7 +682,8 @@ display: none;
 	
 .offer__block {
     text-align: center;
-    right: 11%;
+    right: 13%;
+    top: 15.5%;
 }
 
 	.name__text {
@@ -688,7 +704,7 @@ display: none;
 }
 
 .look__more_main {
-    left: 46%;
+    left: 44%;
 }
 
 .enter {
@@ -727,8 +743,10 @@ display: none;
 
 @media screen and (max-width: 405px) {
 .look__more {
-    left: 43%;
+    left: 41%;
 }
+
+
 
 .courses h2 {
 	font-size: 34px;
@@ -913,6 +931,10 @@ display: none;
 	    margin: 17px 0px;
 	    font-size: 13px;
 
+}
+
+.look__more {
+    left: 41%;
 }
 
 .offer__block {
