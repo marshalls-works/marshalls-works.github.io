@@ -492,7 +492,7 @@ input:-webkit-autofill {
 }
 
 
-.link__to:after {
+.round__more:after {
   content: '';
   border-radius: 50%;
   background-color: #fffae7;
