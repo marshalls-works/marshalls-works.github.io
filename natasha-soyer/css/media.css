@@ -712,11 +712,16 @@ display: none;
 	font-size: 32px;
 }
 
-
-
-
 }
 
+
+@media screen and (max-width: 413px) {
+	
+	.look__more_main {
+    left: 44%;
+}
+
+}
 
 
 @media screen and (max-width: 409px) {
@@ -962,6 +967,9 @@ display: none;
 
 .mk__title {
     font-size: 30px;
+}
+.look__more {
+    left: 42%;
 }
 
 }
