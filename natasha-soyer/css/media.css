@@ -938,6 +938,17 @@ display: none;
 }
 
 
+@media screen and (max-width: 343px) {
+
+.name__line-about {
+    top: 0%;
+    position: absolute;
+    right: 7.5%;
+}
+
+}
+
+
 
 
 @media screen and (max-width: 334px) {
