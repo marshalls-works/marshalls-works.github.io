@@ -21,7 +21,33 @@
                 <div class="head">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8">
+                            <div class="col-lg-8 col-md-11 col-sm-10 col-3">
+                                <div class="media__menu">
+                                    <nav class="burger"></nav>
+                                    <div class="burger_trigger">
+                                        <i class="fas fa-bars"></i>
+                                    </div>
+                                    <ul class="nav__menu d-none">
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="index.html">Главная</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="about.html">Обо мне</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="events.html">Все события</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="gallery.html">Галерея</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="minds.html">Мои мысли</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="contacts.html">Контакты</a>
+                                        </li>
+                                    </ul>
+                                </div>
                                 <nav class="menu">
                                     <ul class="menu__list d-flex">
                                         <li class="menu__item">
@@ -45,7 +71,7 @@
                                     </ul>
                                 </nav>  
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-1 col-sm-2 col-3">
                                 <div class="last-menu d-flex">
                                     <nav class="language__menu">
                                     <ul class="language__list">
@@ -64,7 +90,7 @@
                                         </li>
                                     </ul>
                                 </nav>
-                                <div class="status__profile d-flex">
+                                <div class="status__profile d-flex d-none">
                                     <i class="far fa-user-circle"></i>
                                     <div class="status__circle"></div>
                                 </div>
@@ -83,35 +109,38 @@
                     Здесь отображены фотоотчёты с последних событий
                 </div>
             </div>
-            <div class="about__overlay_gallery">
+        <div class="about__overlay_gallery">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h4 class="block attention wow zoomIn" data-wow-delay="0.8s" data-wow-duration="1.2s">
+                <div class="row row-about row-padding">
+                    <div class="col-lg-8 col-md-8">
+                        <h4 class="block attention wow zoomIn">
                             Минуточку Вашего внимания...
                         </h4>
-                        <div class="attention__descript wow zoomIn" data-wow-delay="0.8s" data-wow-duration="1.2s">
+                        <div class="attention__descript wow zoomIn">
                             В этом альбоме Вы можете найти мои работы<br>
                             выставленные на продажу. Альбом всегда обновляется.
                         </div>
-                        <a class="wow zoomIn button__trans gogallery__btn block hvr-icon-forward border-grow" href="open_album.html" data-wow-delay="0.8s" data-wow-duration="1.2s">
+                        <a class="wow zoomIn button__trans gogallery__btn block hvr-icon-forward border-grow" href="open_album.html">
                             Перейти в альбом<i class="hvr-icon fas fa-caret-right caret-top"></i>
                         </a>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3">
                         <a href="open_album.html">
-                            <img class="album wow zoomIn" data-wow-delay="0.8s" data-wow-duration="1.2s" src="img/albom.png" alt="album">
+                            <img class="album wow zoomIn" src="img/albom.png" alt="album">
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="look__more look__more-gallery">
+                <a href="#section__block-gallery" class="link__to block">Больше</a>
+            </div>
         </div>
     </header>
-    <section class="albums">
+    <section class="albums" id="section__block-gallery">
         <div class="container">
             <div class="row wow zoomIn" data-wow-offset="230" data-wow-delay="0.5s" data-wow-duration="1.5s">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a class="block album__higer" href="open_album.html">
                         <div class="albums__item">
                             <img class="album__pict" src="img/album.png" alt="album">
@@ -123,7 +152,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a class="block album__middle" href="open_album.html">
                         <div class="albums__item">
                             <img class="album__pict" src="img/album.png" alt="album">
@@ -135,7 +164,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12">
                     <a class="block album__lower" href="open_album.html">
                         <div class="albums__item">
                             <img class="album__pict" src="img/album.png" alt="album">
@@ -149,7 +178,7 @@
                 </div>
             </div>
             <div class="row wow zoomIn" data-wow-offset="200" data-wow-delay="0.5s" data-wow-duration="1.5s">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12">
                     <a class="block album__lower" href="open_album.html">
                         <div class="albums__item">
                             <img class="album__pict" src="img/album.png" alt="album">
@@ -161,7 +190,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a class="block album__middle" href="open_album.html">
                         <div class="albums__item">
                             <img class="album__pict" src="img/album.png" alt="album">
@@ -173,7 +202,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a class="block album__higer" href="open_album.html">
                         <div class="albums__item">
                             <img class="album__pict" src="img/album.png" alt="album">
@@ -187,7 +216,7 @@
                 </div>
             </div>
             <div class="row wow zoomIn" data-wow-offset="200" data-wow-delay="0.5s" data-wow-duration="1.5s">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a class="block album__higer" href="open_album.html">
                         <div class="albums__item">
                             <img class="album__pict" src="img/album.png" alt="album">
@@ -199,7 +228,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <a class="block album__middle" href="open_album.html">
                         <div class="albums__item">
                             <img class="album__pict" src="img/album.png" alt="album">
@@ -211,7 +240,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12">
                     <a class="block album__lower" href="open_album.html">
                         <div class="albums__item">
                             <img class="album__pict" src="img/album.png" alt="album">
@@ -229,12 +258,12 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12 col-12">
                     <div class="sign">
                         <a href="#">Natasha Soyer</a>
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-12 col-12">
                     <div class="footer__text">
                         Картины и бесконечный профессиональный рост
                     </div>
@@ -242,7 +271,7 @@
                         © Все права защищены 2018
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-12 col-12">
                     <div class="footer__block">
                         <span class="social__pre block">
                             Natasha Soyer in

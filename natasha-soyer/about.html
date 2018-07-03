@@ -22,7 +22,33 @@
                 <div class="head">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8">
+                            <div class="col-lg-8 col-md-11 col-sm-10 col-3">
+                                <div class="media__menu">
+                                    <nav class="burger"></nav>
+                                    <div class="burger_trigger">
+                                        <i class="fas fa-bars"></i>
+                                    </div>
+                                    <ul class="nav__menu d-none">
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="index.html">Главная</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="about.html">Обо мне</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="events.html">Все события</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="gallery.html">Галерея</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="minds.html">Мои мысли</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="hvr-underline-from-center" href="contacts.html">Контакты</a>
+                                        </li>
+                                    </ul>
+                                </div>
                                 <nav class="menu">
                                     <ul class="menu__list d-flex">
                                         <li class="menu__item">
@@ -46,7 +72,7 @@
                                     </ul>
                                 </nav>  
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-1 col-sm-2 col-3">
                                 <div class="last-menu d-flex">
                                     <nav class="language__menu">
                                     <ul class="language__list">
@@ -65,7 +91,7 @@
                                         </li>
                                     </ul>
                                 </nav>
-                                <div class="status__profile d-flex">
+                                <div class="status__profile d-flex d-none">
                                     <i class="far fa-user-circle"></i>
                                     <div class="status__circle"></div>
                                 </div>
@@ -75,27 +101,29 @@
                     </div>
                 </div>
             </div>
-            <div class="about__title">
-                <div class="name__block">
-                    <div class="name__line">
-                        <img src="img/line.png" alt="line">
+            <div class="container container-size__about">
+                <div class="about__title">
+                    <div class="name__block">
+                        <div class="name__line">
+                            <img src="img/line.png" alt="line">
+                        </div>
+                        <div class="name__text">
+                            Natasha Soyer
+                        </div>
                     </div>
-                    <div class="name__text">
-                        Natasha Soyer
+                    <div class="about__descript">
+                        Краткая история
                     </div>
                 </div>
-                <div class="about__descript">
-                    Краткая история
+                <div class="look__more">
+                    <a href="#section__block" class="link__to block">Больше</a>
                 </div>
-            </div>
-            <div class="look__more">
-                <a href="#section__block" class="link__to block">Больше</a>
             </div>
             <div id="section__block" class="about__infoblock">
             <div class="container-fluid about-info__overlay_red wow fadeIn">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 col-xl-12">
                             <div class="about__info">
                                 В школьные годы, моя подруга похвасталась, что поступила в художественную школу.  Её глаза горели неподдельным счастьем. Подхватив её волну вдохновения, исполненная энтузиазма, я помчалась в художественную школу и уговорила директора записать меня, хотя учебный год давно стартовал и шанс отказа был велик...<br><br>
 
@@ -108,7 +136,7 @@
             <div class="container-fluid about-info__overlay_dark wow fadeIn">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 col-xl-12">
                             <div class="about__info">
                                 Мой поступок-вспышка привел к окончанию и получению как среднего, а потом и  высшего художественного образования. Я развивалась, раскрывая свой талант всё сильнее. Моя душа пела!<br><br>
 
@@ -125,44 +153,49 @@
         <div class="achieve__line">
             Мой опыт и достижения
         </div>
-        <div class="d-flex">
-            <div class="artist wow fadeIn">
-                <img class="artist__img" src="img/about__achiev.png" alt="artist">
-            </div>
-            <div class="column">
-                <div class="achieve__first wow fadeIn">
-                    <div class="achieve__choise">
-                        Я избрала свой путь!
-                    </div>
-                    <div class="achieve__descript">
-                        Я пошла за зовом своей души, создав художественную школу для взрослых, где можно окунуться в мир живописи, истории искусств и отправиться со мной путешествовать по миру. Присоединяйтесь ко мне, познавайте творческий мир на холсте и в увлекательных поездках!
-                    </div>
+        <div class="container-fluid">
+            <div class="row row-about">
+                <div class="col-lg-6 col-md-12 row-padding">
+                        <div class="artist wow fadeIn">
+                            <img class="artist__img" src="img/7.png" alt="artist">
+                            <img class="artist__img_media" src="img/D000SC1066.jpg" alt="artist">
+                        </div>
                 </div>
-                <div class="achieve__next wow fadeIn">
-                    <div class="achieve__choise">
-                        Мои достижения:
+                <div class="col-lg-6 row-padding">
+                    <div class="achieve__first wow fadeIn">
+                        <div class="achieve__choise">
+                            Я избрала свой путь!
+                        </div>
+                        <div class="achieve__descript">
+                            Я пошла за зовом своей души, создав художественную школу для взрослых, где можно окунуться в мир живописи, истории искусств и отправиться со мной путешествовать по миру. Присоединяйтесь ко мне, познавайте творческий мир на холсте и в увлекательных поездках!
+                        </div>
                     </div>
-                    <div class="achieve__descript d-flex">
-                        <div class="achieve__item">
-                            <i class="fas fa-graduation-cap block"></i>
-                            <span class="block">
-                                Профильное
-                                высшее образование
-                            </span>
+                    <div class="achieve__next wow fadeIn">
+                        <div class="achieve__choise">
+                            Мои достижения:
                         </div>
-                        <div class="achieve__item">
-                            <i class="fas fa-history block"></i>
-                            <span class="block">
-                                10 лет практики
-                                и опыта
-                            </span>
-                        </div>
-                        <div class="achieve__item">
-                            <i class="far fa-gem"></i>
-                            <span class="block">
-                                Готовые знания
-                                для Вас!
-                            </span>
+                        <div class="achieve__descript d-flex">
+                            <div class="achieve__item">
+                                <i class="fas fa-graduation-cap block"></i>
+                                <span class="block">
+                                    Профильное
+                                    высшее образование
+                                </span>
+                            </div>
+                            <div class="achieve__item">
+                                <i class="fas fa-history block"></i>
+                                <span class="block">
+                                    10 лет практики
+                                    и опыта
+                                </span>
+                            </div>
+                            <div class="achieve__item achieve__item_media">
+                                <i class="far fa-gem"></i>
+                                <span class="block">
+                                    Готовые знания
+                                    для Вас!
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -178,8 +211,8 @@
         </div>
         <div class="about__overlay_gallery">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
+                <div class="row row-about row-padding">
+                    <div class="col-lg-8 col-md-8">
                         <h4 class="block attention wow zoomIn">
                             Минуточку Вашего внимания...
                         </h4>
@@ -191,7 +224,7 @@
                             Перейти в альбом<i class="hvr-icon fas fa-caret-right caret-top"></i>
                         </a>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3">
                         <a href="open_album.html">
                             <img class="album wow zoomIn" src="img/albom.png" alt="album">
                         </a>
@@ -202,13 +235,13 @@
     </section>
     <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
+            <div class="row row-about">
+                <div class="col-lg-4 col-md-12 col-12">
                     <div class="sign">
                         <a href="#">Natasha Soyer</a>
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-12 col-12">
                     <div class="footer__text">
                         Картины и бесконечный профессиональный рост
                     </div>
@@ -216,7 +249,7 @@
                         © Все права защищены 2018
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-12 col-12">
                     <div class="footer__block">
                         <span class="social__pre block">
                             Natasha Soyer in
