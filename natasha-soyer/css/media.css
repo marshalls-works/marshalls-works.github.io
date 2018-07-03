@@ -70,21 +70,27 @@
 	}
 
 	.look__more {
-display: none;
-}
+	display: none;
+	}
+
 
 .about__title {
     text-align: center;
     position: absolute;
-    top: 16.5%;
+    top: 33.5%;
     right: 19%;
-}
+	}
 
+	.container-size__about {
+    height: 50vh;
+	}
+
+}
 
 	/*-------------------------------------------Header Aboout-------------------------------------------*/
 
 
-}
+
 
 
 @media screen and (max-width: 991px) { 
@@ -143,8 +149,8 @@ display: none;
 .about__title {
     text-align: center;
     position: absolute;
-    top: 16.5%;
-    right: 19%;
+    top: 27.5%;
+    right: 14%;
 }
 
 .name__text {
@@ -279,8 +285,7 @@ display: none;
 .about__title {
     text-align: center;
     position: absolute;
-    top: 16.5%;
-    right: 10%;
+    right: 7%;
 }
 
 .name__text {
@@ -488,6 +493,27 @@ display: none;
 
 }
 
+@media screen and (max-width: 560px) {
+
+.container-size__about {
+    height: 40vh;
+}
+
+.about__title {
+	position: relative;
+	top: 0;
+	right: 0;
+	margin: 94px auto 0px;
+}
+
+.name__line-about {
+    top: 10%;
+    position: absolute;
+    right: 12.5%;
+}
+
+}
+
 
 
 @media screen and (max-width: 506px) {
@@ -653,6 +679,12 @@ display: none;
 	width: 100%;
 }
 
+.name__line-about {
+    top: 10%;
+    position: absolute;
+    right: 10.5%;
+}
+
 }
 
 @media screen and (max-width: 418px) {
@@ -700,18 +732,15 @@ display: none;
 
 
 @media screen and (max-width: 409px) {
-.about__title {
-    text-align: center;
-    position: absolute;
-    top: 16.5%;
-    right: 6%;
-
-}
 
 .courses__name {
     font-size: 18px;
     padding-bottom: 9px;
     line-height: 30px;
+}
+
+.name__line-about {
+    right: 10.5%;
 }
 
 
@@ -770,6 +799,12 @@ display: none;
     right: 7.5%;
 }
 
+.name__line-about {
+    top: 10%;
+    position: absolute;
+    right: 8.5%;
+}
+
 }
 
 
@@ -795,6 +830,12 @@ display: none;
     font-size: 25px;
 }
 
+.name__line-about {
+    top: 10%;
+    position: absolute;
+    right: 6.5%;
+}
+
 }
 
 
@@ -802,6 +843,12 @@ display: none;
 
 .name__text {
     font-size: 48px;
+}
+
+.name__line-about {
+    top: 10%;
+    position: absolute;
+    right: 3.5%;
 }
 
 }  
@@ -843,6 +890,14 @@ display: none;
 
 }
 
+@media screen and (max-width: 357px) { 
+
+.name__text_about {
+    font-size: 46px;
+}
+
+}
+
 
 @media screen and (max-width: 348px) { 
 
@@ -850,15 +905,15 @@ display: none;
     font-size: 40px;
 }
 
-.about__title {
-    text-align: center;
-    position: absolute;
-    top: 16.5%;
-    right: 10%;
-}
 
 .courses__name {
     line-height: 23px;
+}
+
+.name__line-about {
+    top: 0%;
+    position: absolute;
+    right: 8.5%;
 }
 
 

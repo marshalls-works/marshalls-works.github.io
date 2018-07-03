@@ -776,13 +776,15 @@ input:-webkit-autofill {
 
 .about__backgr {
    background: url(../img/backgr_about.png) no-repeat fixed center top/cover;
-   height: 165vh;
+  height: 100%;
 }
+
 
 .about__overlay {
     background: rgba(28, 34, 22, 0.5);
-    height: 165vh;
+  height: 100%;
 }
+
 
 .container-size__about {
     margin: 0 auto;
@@ -828,9 +830,14 @@ input:-webkit-autofill {
 }
 
 .about__infoblock {
-  position: absolute;
-  bottom: -65%;
   width: 100%;
+}
+
+
+.name__line-about {
+    top: 10%;
+    position: absolute;
+    right: 1.5%;
 }
 
 /*-------------------------------------------Acievements-------------------------------------------*/
