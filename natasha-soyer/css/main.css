@@ -556,13 +556,13 @@ input:-webkit-autofill {
 
 .background__main2 {
   background: url(../img/mainback2.png) no-repeat fixed center top/cover;
-  height: 282vh;
+  height: 100%;
   color: #fcfbdd;
 }
 
 .overlay__main2 {
   background: rgba(28, 34, 22, 0.5);
-  height: 282vh;
+  height: 100%;
   position: relative;
 }
 
@@ -675,8 +675,9 @@ input:-webkit-autofill {
 }
 
 .all__events {
-    margin: 84px auto;
+    margin: 100px auto;
 }
+
 
 .all__events div {
   font-size: 38px;
