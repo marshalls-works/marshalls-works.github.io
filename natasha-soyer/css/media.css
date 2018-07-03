@@ -692,7 +692,7 @@ display: none;
 .name__line-about {
     top: 2%;
     position: absolute;
-    right: 5.5%;
+    right: 10.5%;
 }
 
 
@@ -858,7 +858,7 @@ display: none;
 }
 
 .name__line-about {
-    top: 10%;
+    top: 2%;
     position: absolute;
     right: 3.5%;
 }
