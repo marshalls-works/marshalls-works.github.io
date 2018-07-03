@@ -690,7 +690,7 @@ display: none;
 @media screen and (max-width: 426px) {
 
 .name__line-about {
-    top: 6%;
+    top: 2%;
     position: absolute;
     right: 5.5%;
 }
