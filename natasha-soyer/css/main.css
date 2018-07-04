@@ -1493,15 +1493,29 @@ border: none;
 }
 
 #thx {
-    background: #fff;
-    position: absolute;
-    left: 33%;
-    top: 50%;
+  background: #fff;
+    position: relative;
+    margin: 32% auto 0%;
+    width: 441px;
     padding: 37px;
-    margin-top: -20px;
     border-radius: 5px;
     font-size: 25px;
     font-family: 'MuseoSansCyrl';
+}
+
+.tnx__contacts {
+  width: 457px!important;
+     padding: 37px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'MuseoSansCyrl';
+     background: #fff;
+    position: relative;
+    margin: 24% auto 0%;
+}
+
+.container-reg {
+  height: 100vh;
 }
 
 #thx__reg {
